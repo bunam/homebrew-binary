@@ -5,10 +5,10 @@ class Ngrok2 < Formula
 
   if MacOS.prefer_64_bit?
     url "https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-#{version}-darwin-amd64.zip"
-    sha256 "863ebc05824329d288977d275d2ab90e554780a053019ae2bbadb317a1abf607"
+    sha256 "63c9aeee01956f2e9627581f78a2e498e3364455240d663ccf7184c86d0fe6e3"
   else
     url "https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-#{version}-darwin-386.zip"
-    sha256 "4dce4c66a5eb83394fa4f1173897c4d7557287b867b8991ca8558ee03635a889"
+    sha256 "5f39f69ba742c9bdbdc8390aab5c8cb1ec209920ed14ea927c7c8b4e5e74850b"
   end
 
   bottle :unneeded
